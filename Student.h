@@ -12,7 +12,12 @@ string major;
 public:
 Student();
 Student( string name, int id,int yearLevel, string major){
-void
+void setYearLevel(int y);
+void setMajor(const string m);
+int getYearLevel() const;
+string getMajor() const;
+void display() const;
+};
 
 
 
