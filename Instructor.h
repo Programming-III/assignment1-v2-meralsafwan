@@ -19,7 +19,7 @@ getDepartment();
 string getDepartment() const;
 int getExperienceYears() const;
 void display();
-
+};
 
 
 
