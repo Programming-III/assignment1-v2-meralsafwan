@@ -11,7 +11,12 @@ int id;
 public:
 Person();
 Person(string name, int id);
-void 
+void setName(string name);
+void setId(int id);
+string getName() const;
+int getId() const;
+void display();
+};
 
 
 
